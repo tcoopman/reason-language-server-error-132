@@ -1,0 +1,17 @@
+{
+  "name": "e2e_test",
+  "version": "0.1.0",
+  "sources": [
+    "src"
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "bs-puppeteer", "@aantron/repromise"
+  ],
+  "namespace": true,
+  "refmt": 3
+}
